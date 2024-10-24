@@ -3,10 +3,10 @@ from pymongo import MongoClient
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from datetime import datetime
 
-token = "7326821694:AAHsi6XohwO-qpcJxfDgzZ8M0CYl6iXzmDY"
+token = "BOT TOKEN HERE"
 bot = telebot.TeleBot(token)
 
-url = "mongodb+srv://JiqueGR:6nyk9fSLuOSeo8BL@deepsystem.itxh5.mongodb.net/DeepSystem?retryWrites=true&w=majority&appName=DeepSystem"
+url = "URL MONGO HERE"
 client = MongoClient(url)
 db = client['DeepSystem']
 bank = db['Bank']
